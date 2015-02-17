@@ -1,0 +1,10 @@
+<tr>
+  <td class="center">
+    <input type="checkbox" v-model="isUse"/>
+  </td>
+  <td v-repeat="fields" v-text="getValue(code)"></td>
+  <td class="center">
+    <a v-attr="href:showUrl" class="mr10"><i class="fa fa-file-text"></i></a>
+    <a v-attr="href:editUrl"><i class="fa fa-pencil"></i></a>
+  </td>
+</tr>

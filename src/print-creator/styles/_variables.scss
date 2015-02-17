@@ -1,0 +1,43 @@
+/* HP:        http://bootswatch.com/
+ * Cerulean:  http://bootswatch.com/cerulean/
+ * Cosmo:     http://bootswatch.com/cosmo/
+ * Cyborg:    http://bootswatch.com/cyborg/
+ * Darkly:    http://bootswatch.com/darkly/
+ * Flatly:    http://bootswatch.com/flatly/
+ * Journal:   http://bootswatch.com/journal/
+ * Lumen:     http://bootswatch.com/lumen/
+ * Paper:     http://bootswatch.com/paper/
+ * Readable:  http://bootswatch.com/readable/
+ * Sandstone: http://bootswatch.com/sandstone/
+ * Simplex:   http://bootswatch.com/simplex/
+ * Slate:     http://bootswatch.com/slate/
+ * Spacelab:  http://bootswatch.com/spacelab/
+ * Superhero: http://bootswatch.com/superhero/
+ * United:    http://bootswatch.com/united/
+ * Yeti:  http://bootswatch.com/yeti/
+ */
+@import "node_modules/bootswatch/sandstone/variables";
+
+
+$base-color               : #EFF2F8;
+$base-dark                : darken($base-color, 20%);
+$base-darker              : darken($base-color, 40%);
+$base-darkest             : darken($base-color, 60%);
+
+// Base
+$body-bg                  : $base-color;
+
+// Font
+$font-size-base           : 14px;
+$icon-font-path           : "/fonts/bootstrap/";
+$font-family-base         : "Hiragino Kaku Gothic Pro", Meiryo, Osaka, "MS PGothic", sans-serif;
+
+// Link
+$link-color               : $brand-primary;
+
+// Nav
+$nav-link-hover-bg        : $base-color;
+$navbar-border-radius     : 0;
+
+// Panel
+$panel-default-heading-bg : #fff;

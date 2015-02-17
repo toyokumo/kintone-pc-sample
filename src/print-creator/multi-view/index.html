@@ -1,0 +1,13 @@
+<table class="table table-bordered table-hover">
+  <thead>
+    <tr>
+      <th></th>
+      <th v-repeat="fields" v-text="label"></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr v-repeat="records" v-component="record"></tr>
+  </tbody>
+</table>
+<div v-component="form" class="pcreator-container"></div>

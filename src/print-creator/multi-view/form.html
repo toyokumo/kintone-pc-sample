@@ -1,0 +1,7 @@
+<form method="POST" target="_blank">
+  <input type="hidden" name="data" value="">
+  <select class="pcreator-sheets-select">
+    <option v-repeat="sheets" v-text="title" value="{{ id }}"></option>
+  </select>
+  <input type="submit" value="{{ 'output' | t }}" v-on="click: onSubmit" />
+</form>
