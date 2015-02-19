@@ -68,7 +68,6 @@ node-sassを先にインストールしてからnpm installすると解決する
 - [CoffeeScript](http://coffeescript.org/)
 - [Gulp](http://gulpjs.com/)
 - [Browserify](http://browserify.org/)
-
 - [bootstrap](http://getbootstrap.com)
 - [Font Awesome](http://fontawesome.io/)
 - [Vue.js](http://vuejs.org/)
@@ -138,7 +137,7 @@ kintoneにDropboxで共有したprint-creator.jsを設定すると, 修正が数
 
 ### エディタ
 
-HTML, CSS, JavaScript, SASS, CoffeeScriptなどの開発には,
+HTML, CSS, JavaScript, Sass, CoffeeScriptなどの開発には,
 [WebStorm](https://www.jetbrains.com/webstorm/)
 をオススメする.
 
@@ -149,5 +148,9 @@ Macの場合は, brew caskでもインストールできる.
 Gitでのバージョン管理には,[SourceTree](http://sourcetreeapp.com/)
 をオススメする.
 
-無料ながらgit flowに関する機能が組み込まれており, 本プロジェクトに適し
-ている.
+git flowに関する機能が組み込まれており, 本プロジェクトに適している.
+
+ライセンス
+------------
+
+MIT
